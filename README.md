@@ -1,17 +1,10 @@
-
 ## Øvelse: Omdan en HTML Todo Liste til en React App
 
 ### Mål:
-I denne øvelse skal du omdanne en eksisterende HTML Todo Liste til en React App. Dette indebærer arbejde med Components, state, Events og Form elementer.
-
-### Forudsætninger:
-- Grundlæggende kendskab til HTML, CSS og JavaScript.
-- Grundlæggende forståelse af React og JSX.
+I denne øvelse skal du omdanne en eksisterende [HTML Todo Liste](https://itakea.github.io/todo_html_to_react_ex/) til en React App. Dette indebærer arbejde med _components_, _props_, _state_, _events_ og _form_ elementer.
 
 ### Materialer:
-- Startkode: En simpel Todo Liste skrevet i HTML, CSS (Bootstrap) og JavaScript. (Du kan bruge den HTML kode, jeg oprindeligt leverede).
-- Node.js og npm installeret på din computer.
-- En kode editor (f.eks. Visual Studio Code).
+- Startkode: [En simpel Todo Liste skrevet i HTML, CSS (Bootstrap) og JavaScript](https://github.com/ITAKEA/todo_html_to_react_ex/blob/master/index.html). 
 
 ### Instruktioner:
 
@@ -20,6 +13,8 @@ I denne øvelse skal du omdanne en eksisterende HTML Todo Liste til en React App
    - Gå ind i din nye app-mappe med kommandoen `cd react-todo-list`.
 
 2. **Installation af Bootstrap**
+(Hvis du fortrækker et andet framework, eller fortrækker at lave alt css selv er det helt fint. Bootstrap er bare et eksempel.)    
+
    - Installer Bootstrap i din React app med kommandoen `npm install bootstrap`.
    - Inkluder Bootstrap i din app ved at tilføje følgende linje i `src/index.css`: `@import '~bootstrap/dist/css/bootstrap.min.css';`.
 
@@ -39,15 +34,6 @@ I denne øvelse skal du omdanne en eksisterende HTML Todo Liste til en React App
    - Kør din app med kommandoen `npm start` og test funktionaliteten i din browser.
    - Sørg for at din app fungerer som forventet og ligner den oprindelige HTML-version.
 
-### Aflevering:
-- Aflever din færdige React app som et GitHub repository.
-- Inkluder en `README.md` fil med instruktioner om, hvordan man kører din app og en beskrivelse af den funktionalitet, din app tilbyder.
 
-### Bedømmelseskriterier:
-- Korrekt implementering af React komponenter og state.
-- Korrekt implementering af event handlers til at håndtere brugerinteraktioner.
-- Korrekt brug af Bootstrap til at style din app.
-- Din app skal fungere korrekt og uden fejl.
-
-### Bonus:
+### Bonus opgave:
 - Tilføj yderligere funktionaliteter eller forbedringer til din app, såsom muligheden for at redigere todos, en "markér alle som fuldført" knap, eller en måde at filtrere og vise kun fuldførte eller ufuldførte todos.
